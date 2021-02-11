@@ -45,10 +45,7 @@ jobs:
           HOTSOONADKEY: ${{ secrets. HOTSOONADKEY }}
           HOTSOONREADHEADER: ${{ secrets. HOTSOONREADHEADER }}
           HOTSOONREADKEY: ${{ secrets. HOTSOONREADKEY }}
-      - name: npm install
-        run: |
-          npm install
-      - name: '运行 【火山小视频极速版】'
+      - name: '运行 【火山小视频极速版-cong】'
         run: |
           node hotsoon.js
         env:
