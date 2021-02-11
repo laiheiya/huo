@@ -35,7 +35,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【火山小视频极速版】'
+      - name: '运行 【火山小视频极速版-2375】'
         run: |
           node hotsoon.js
         env:
