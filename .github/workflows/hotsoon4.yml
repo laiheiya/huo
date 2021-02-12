@@ -55,16 +55,6 @@ jobs:
           HOTSOONADKEY: ${{ secrets. HOTSOONADKEY1 }}
           HOTSOONREADHEADER: ${{ secrets. HOTSOONREADHEADER1 }}
           HOTSOONREADKEY: ${{ secrets. HOTSOONREADKEY1 }}
-      - name: '运行 【火山小视频极速版-6644】'
-        run: |
-          node hotsoon.js
-        env:
-          HOTSOONSIGNHEADER: ${{ secrets. HOTSOONSIGNHEADER2 }}
-          HOTSOONSIGNKEY: ${{ secrets. HOTSOONSIGNKEY2 }}
-          HOTSOONADHEADER: ${{ secrets. HOTSOONADHEADER2 }}
-          HOTSOONADKEY: ${{ secrets. HOTSOONADKEY2 }}
-          HOTSOONREADHEADER: ${{ secrets. HOTSOONREADHEADER2 }}
-          HOTSOONREADKEY: ${{ secrets. HOTSOONREADKEY2 }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           BARK_PUSH: ${{ secrets.BARK_PUSH }}
